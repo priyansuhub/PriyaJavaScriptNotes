@@ -1,0 +1,3 @@
+using html comments in javascript is a bad practice
+html comments will cause the code to be ignored by 
+the browser also(old browsers ofcourse)

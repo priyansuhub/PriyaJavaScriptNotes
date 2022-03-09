@@ -1,0 +1,40 @@
+Strings.fromCharCode('104');
+//String in form of an object
+var objectString = new String("Yes, I am a String object");
+
+function reverseString(str) {
+ return str.split('').reverse().join(''); }
+reverseString('string');
+
+localeCompare() in javascript to compare strings lexicographically
+
+
+WORD COUNTER
+
+what does .match do
+
+function wordCount( val ){
+ var wom = val.match(/\S+/g);
+ return {
+ charactersNoSpaces : val.replace(/\s+/g, '').length,
+ characters : val.length,
+ words : wom ? wom.length : 0,
+ lines : val.split(/\r*\n/).length
+ }; }
+
+ Detecting a string
+ typeof sai karlo
+ typeof aString === "string";
+
+
+ //
+ Slice is used to extract substrings
+ 
+
+ "D".charCodeAt();
+
+
+ There is also a codePointAt() function
+
+
+ find and replace function

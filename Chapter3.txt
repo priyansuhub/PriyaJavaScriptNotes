@@ -1,0 +1,56 @@
+null = intentional and is a primitive value
+return type object
+not a property of global object
+
+
+//window.isNaN()
+if something is NaN
+
+isNaN(NaN); // true
+isNaN(1); // false: 1 is a number
+isNaN(-2e-4); // false: -2e-4 is a number (-0.0002) in scientific notation
+isNaN(Infinity); // false: Infinity is a number
+isNaN(true); // false: converted to 1, which is a number
+isNaN(false); // false: converted to 0, which is a number
+isNaN(null); // false: converted to 0, which is a number
+isNaN(""); // false: converted to 0, which is a number
+isNaN(" "); // false: converted to 0, which is a number
+isNaN("45.3"); // false: string representing a number, converted to 45.3
+isNaN("1.2e3"); // false: string representing a number, converted to 1.2e3
+isNaN("Infinity"); // false: string representing a number, converted to Infinity
+isNaN(new Date); // false: Date object, converted to milliseconds since epoch
+isNaN("10$"); // true : conversion fails, the dollar sign is not a digit
+isNaN("hello"); // true : conversion fails, no digits at all
+isNaN(undefined); // true : converted to NaN
+isNaN(); // true : converted to NaN (implicitly undefined)
+isNaN(function(){}); // true : conversion fails
+isNaN({}); // true : conversion fails
+isNaN([1, 2]); // true : converted to "1, 2", which can't be converted to a number
+
+
+isNaN([]) and isNaN([34]) both return false,
+first it is converted to string then to number
+
+
+Infinity
+Global Object
+Number that is so big that it overflows 
+or divide it by 0
+
+-Infinity and +Infinity
+1/0 === 1/-0
+false
+
+something / infinity = 0
+yes there is -0
+
+
+// Number constraints
+.MAX_VALUE
+.MAX_SAFE_INTEGER
+.MIN_VALUE
+.MIN_SAFE_INTEGER
+.EPSILON (Note that Number.EPSILON represents the different between one and the smallest Number greater than one, and
+thus the smallest possible difference between two different Number values. One reason to use this is due to the
+nature of how numbers are stored by JavaScript see Check the equality of two numbers)
+.NaN
