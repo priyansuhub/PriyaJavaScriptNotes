@@ -1,0 +1,3 @@
+ternary 
+if else
+Strategy

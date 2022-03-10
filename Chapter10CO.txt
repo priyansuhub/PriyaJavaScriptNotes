@@ -1,0 +1,49 @@
+Abstract equality/ Abstract Inequality
+
+Wo convert kar deta hai
+"" == 0 yes 
+false == 0 true
+false == "0" true
+
+NaN is used when a non numeric value is provided but a number is expected
+
+Number.isNaN(NaN); // true
+Number.isNaN(0 / 0); // true
+Number.isNaN('str' - 12); // true
+Number.isNaN(24); // false
+Number.isNaN('24'); // false
+Number.isNaN(1 / 0); // false
+Number.isNaN(Infinity); // false
+Number.isNaN('str'); // false
+Number.isNaN(undefined); // false
+
+
+Object.is(NaN, NaN); true
+
+is false == undefined
+false
+
+1 == '1.00000000001'; // false
+1 == '1.00000000000000001'; // true (true due to precision loss)
+
+
+
+logic operator with non boolean value
+var a = 'hello' || ''; // a = 'hello'
+var b = '' || []; // b = []
+var c = '' || undefined; // c = undefined
+var d = 1 || 5; // d = 1
+var e = 0 || {}; // e = {}
+var f = 0 || '' || 5; // f = 5
+var g = '' || 'yay' || 'boo'; // g = 'yay'
+
+
+//SameValue 
+is
+includes
+
+what is the difference between is and includes
++0 and -0 
+
+NaN == NaN; why?
+

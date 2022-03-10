@@ -33,8 +33,20 @@ function wordCount( val ){
 
  "D".charCodeAt();
 
+ //String in a string
+
+ indexOf
+ lastIndexOf
+
+
 
  There is also a codePointAt() function
 
 
  find and replace function
+
+ WHAT IS A PROTOTYPE?
+
+ String.protoype.toUpperCase()
+ .Repeat a String
+ 
