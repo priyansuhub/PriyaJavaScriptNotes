@@ -1,0 +1,13 @@
+Constructor functions are functions designed to construct a new object. Within a constructor function, the keyword
+this refers to a newly created object which values can be assigned to. Constructor functions "return" this new
+object automatically.
+
+
+// FOR LOOPS
+
+for(of in forEach)
+
+
+forEach doesnot work with break continue and return
+for in is generally used to iterate over object keys so when you have an array use for of
+hasOwnProperty yaad rakhio

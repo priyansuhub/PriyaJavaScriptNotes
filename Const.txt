@@ -1,0 +1,2 @@
+Declaring a variable const only prevents its value from being replaced by a new value. const does not put any
+restrictions on the internal state of an object.

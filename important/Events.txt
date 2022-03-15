@@ -1,0 +1,3 @@
+onload event
+DOMContentLoaded event
+Self-invoking anonymous function

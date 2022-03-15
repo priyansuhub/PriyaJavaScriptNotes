@@ -1,0 +1,5 @@
+What is method chaining?
+
+standard function prototype
+
+function Foo (){}
